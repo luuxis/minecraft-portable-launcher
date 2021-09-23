@@ -13,4 +13,13 @@
       <Filter>assets\C++</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="minecraft-portable-launcher.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\icons\ico.ico" />
+  </ItemGroup>
 </Project>
