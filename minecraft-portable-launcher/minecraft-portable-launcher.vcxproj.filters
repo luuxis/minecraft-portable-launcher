@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="assets">
+      <UniqueIdentifier>{4eb6d8f2-b80f-491b-98a7-96b311e1b838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\C++">
+      <UniqueIdentifier>{f76ab138-0107-4183-8563-120a63136847}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="assets\C++\main.cpp">
+      <Filter>assets\C++</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
