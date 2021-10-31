@@ -24,6 +24,7 @@
     <ProjectGuid>{46b93e53-5492-41e9-9677-40eca5bb9f15}</ProjectGuid>
     <RootNamespace>minecraftportablelauncher</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Minecraft</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
