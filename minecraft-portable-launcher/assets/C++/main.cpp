@@ -10,9 +10,9 @@ int download(std::string url, std::string destination) {
 int main() {
     std::cout << "Programme d'installation\n";
     system("title Minecraft");
-    system("if not exist %CD%\\Minecraft\\AppData\\.minecraft md %CD%\\Minecraft\\AppData\\.minecraft");
-    system("if not exist %CD%\\Minecraft\\Minecraft mkdir %CD%\\Minecraft\\Minecraft");
-    download("https://launcher.mojang.com/download/Minecraft.exe", "Minecraft\\Minecraft\\minecraft.exe");
-    system("start %CD%\\Minecraft\\Minecraft\\Minecraft.exe --workDir %CD%\\Minecraft\\AppData\\.minecraft");
+    system("if not exist \"%CD%\\Minecraft\\.minecraft\" mkdir \"%CD%\\Minecraft\\.minecraft\"");
+    system("if not exist \"%CD%\\Minecraft\\Minecraft Launcher\" mkdir \"%CD%\\Minecraft\\Minecraft Launcher\"");
+    download("https://launcher.mojang.com/download/Minecraft.exe", "\"%CD%\\Minecraft\\Minecraft Launcher\\Minecraft.exe\"");
+    system("start \"\" \"%CD%\\Minecraft\\Minecraft Launcher\\Minecraft.exe\" --workDir \"%CD%\\Minecraft\\.minecraft\"");
     return 0;
 }
