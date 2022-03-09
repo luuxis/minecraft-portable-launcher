@@ -77,12 +77,12 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>Minecraft-$(Configuration)-$(Platform)</TargetName>
+    <TargetName>Minecraft-$(Configuration)-x86</TargetName>
     <OutDir>$(SolutionDir)Build</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>Minecraft-$(Configuration)-$(Platform)</TargetName>
+    <TargetName>Minecraft-$(Configuration)-x86</TargetName>
     <OutDir>$(SolutionDir)Build</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
