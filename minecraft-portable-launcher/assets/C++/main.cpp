@@ -13,6 +13,6 @@ int main() {
     system("if not exist \"%CD%\\Minecraft\\.minecraft\" mkdir \"%CD%\\Minecraft\\.minecraft\"");
     system("if not exist \"%CD%\\Minecraft\\Minecraft Launcher\" mkdir \"%CD%\\Minecraft\\Minecraft Launcher\"");
     download("https://launcher.mojang.com/download/Minecraft.exe", "\"%CD%\\Minecraft\\Minecraft Launcher\\Minecraft.exe\"");
-    system("start \"\" \"%CD%\\Minecraft\\Minecraft Launcher\\Minecraft.exe\" --workDir \"%CD%\\Minecraft\\.minecraft\"");
+    system("start \"\" \"%CD%\\Minecraft\\Minecraft Launcher\\Minecraft.exe\" --workDir \"%CD%\\Minecraft\\.minecraft\" --tmpDir \"%CD%\\Minecraft\\Minecraft Launcher\\cache\"");
     return 0;
 }
