@@ -3,7 +3,7 @@ use std::time::Duration;
 mod detail_env {
     use crate::launcher::Launcher;
     pub const URL: &str = "https://launcher.mojang.com/download/Minecraft.exe";
-    pub const PATH: &str = "Minecraft/Minecraft Launcher/Minecraft.exe";
+    pub const PATH: &str = "Minecraft/Minecraft Launcher/MinecraftLauncher.exe";
 
     lazy_static::lazy_static! {
         pub static ref LAUNCHER: Option<Launcher> = Some(Launcher {
