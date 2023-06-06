@@ -1,7 +1,3 @@
-# Generated
-/.vs/
-build
-minecraft-portable-launcher.aps
-Release
-Debug
-x64
+target
+test_download
+Minecraft
